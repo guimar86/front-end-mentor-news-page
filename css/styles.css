@@ -1,0 +1,80 @@
+/* Elements */
+
+
+body {
+
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* navigation */
+
+.header {
+    padding: 100px 0 20px;
+}
+
+.nav ul {
+
+    text-align: right;
+}
+
+.nav li {
+
+    display: inline;
+    margin: 0 35px;
+}
+
+.nav li a {
+
+    text-decoration: none;
+}
+
+/* Layout and classes */
+.main-content {
+
+    background-color: aqua;
+}
+
+.main-sidebar {
+
+    background-color: black;
+    color: hsl(233, 8%, 79%);
+    padding: 2rem;
+
+}
+
+.main-sidebar h2,
+h3 {
+
+    color: hsl(35, 77%, 62%);
+}
+
+.main-sidebar a {
+
+    color: hsl(36, 100%, 99%);
+}
+
+.main-sidebar a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.main-sidebar p {
+
+    margin: 10px 0;
+}
+
+.sidebar-division {
+
+    border-bottom: 1px dotted;
+    margin-bottom: 2rem;
+
+}
+
+.sidebar-division:last-child {
+
+    border-bottom: none;
+}
+
+.main-img {
+
+    height: 20rem;
+}
