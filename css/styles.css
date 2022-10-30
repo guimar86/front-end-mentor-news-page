@@ -4,13 +4,31 @@
 body {
 
     font-family: 'Merriweather Sans', sans-serif;
+    color: hsl(233, 8%, 79%);
 }
+
+h1 {
+
+    color: #000;
+    font-weight: bold;
+}
+
+a {
+    color: hsl(233, 8%, 79%);
+}
+
+a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+
 
 /* navigation */
 
 .header {
     padding: 100px 0 20px;
 }
+
 
 .nav ul {
 
@@ -34,9 +52,49 @@ body {
     background-color: aqua;
 }
 
+.mid-content {
+
+    padding: 2rem;
+}
+
+.bottom-section {
+
+    padding: 2rem;
+    text-align: left;
+}
+
+.bottom-section p {
+
+    margin: 20px 0;
+}
+
+.bottom-link {
+
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bottom-img {
+
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.big-number {
+
+    display: block;
+    font-size: 2rem;
+}
+
+.bottom-link:hover {
+
+    color: hsl(5, 85%, 63%);
+}
+
 .main-sidebar {
 
-    background-color: black;
+    background-color: hsl(240, 100%, 5%);
     color: hsl(233, 8%, 79%);
     padding: 2rem;
 
@@ -51,6 +109,7 @@ h3 {
 .main-sidebar a {
 
     color: hsl(36, 100%, 99%);
+    text-decoration: none;
 }
 
 .main-sidebar a:hover {
@@ -59,12 +118,13 @@ h3 {
 
 .main-sidebar p {
 
-    margin: 10px 0;
+    margin: 10px 0 50px;
+    text-align: left;
 }
 
 .sidebar-division {
 
-    border-bottom: 1px dotted;
+    border-bottom: 1px solid;
     margin-bottom: 2rem;
 
 }
@@ -77,4 +137,26 @@ h3 {
 .main-img {
 
     height: 20rem;
+}
+
+.read-more {
+
+    padding: 1rem;
+    background-color: hsl(240, 100%, 5%);
+    margin: 15px 0 15px;
+    width: 125px;
+
+}
+
+.read-more a {
+    text-decoration: none;
+}
+
+.attribution {
+
+    padding: 2rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
 }
