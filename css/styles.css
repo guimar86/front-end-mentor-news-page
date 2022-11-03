@@ -17,7 +17,8 @@ a {
     color: hsl(233, 8%, 79%);
 }
 
-a:hover {
+a:hover,
+.nav-link:hover {
     color: hsl(5, 85%, 63%);
 }
 
@@ -26,7 +27,7 @@ a:hover {
 /* navigation */
 
 .header {
-    padding: 100px 0 20px;
+    padding: 3rem 0;
 }
 
 
@@ -46,6 +47,10 @@ a:hover {
     text-decoration: none;
 }
 
+.nav a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
 /* Layout and classes */
 .main-content {
 
@@ -54,7 +59,8 @@ a:hover {
 
 .mid-content {
 
-    padding: 2rem;
+    padding: 2rem 0;
+    width: 100%;
 }
 
 .bottom-section {
@@ -75,12 +81,14 @@ a:hover {
     font-weight: bold;
 }
 
-.bottom-img {
+.bottom-img img {
 
     float: left;
-    margin: 0 20px 0 0;
+    margin: 0 20px 20px 0;
     height: 150px;
 }
+
+.bottom-img {}
 
 .big-number {
 
@@ -153,11 +161,36 @@ h3 {
     text-decoration: none;
 }
 
+.read-more a:hover {
+    color: hsl(36, 100%, 99%);
+}
+
+.read-more:hover {
+
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+}
+
 .attribution {
 
     padding: 2rem;
     width: 50%;
     margin: 0 auto;
     text-align: center;
+
+}
+
+@media (max-width:992px) {
+
+    .main-img {
+
+        height: auto;
+        max-width: 100%;
+    }
+
+    .container {
+
+        text-align: center;
+    }
 
 }
